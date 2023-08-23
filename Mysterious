@@ -15,49 +15,49 @@ MainTab:AddButton({
   	end    
 })
 
-Tab:AddButton({
+MainTab:AddButton({
 	Name = "Duplicate Gems",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/LypheerX/MoriScripts/main/MoriScripts", true))()
   	end    
 })
 
-Tab:AddButton({
+MainTab:AddButton({
 	Name = "Trade Lag",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/LypheerX/MoriScripts/main/MoriScripts", true))()
   	end    
 })
 
-Tab:AddButton({
+MainTab:AddButton({
 	Name = "Fake Tag",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/LypherX/BlueFakeTagMori/main/MoriBlueFakeTag", true))()
   	end    
 })
 
-Tab:AddButton({
+MainTab:AddButton({
 	Name = "Pet Spawner",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/LypheerX/MoriScripts/main/MoriScripts", true))()
   	end    
 })
 
-Tab:AddButton({
+MainTab:AddButton({
 	Name = "Pet Changer",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/LypheerX/MoriScripts/main/MoriScripts", true))()
   	end    
 })
 
-Tab:AddButton({
+MainTab:AddButton({
 	Name = "Bank Virus",
 	Callback = function()
       		print("button pressed")
   	end    
 })
 
-Tab:AddButton({
+MainTab:AddButton({
 	Name = "FE Kicker/Banner",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/LypheerX/MoriScripts/main/MoriScripts", true))()
