@@ -32,7 +32,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Fake Tag",
 	Callback = function()
-      		`loadstring(game:HttpGet("https://raw.githubusercontent.com/LypherX/BlueFakeTagMori/main/MoriBlueFakeTag", true))()`
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/LypherX/BlueFakeTagMori/main/MoriBlueFakeTag", true))()
   	end    
 })
 
